@@ -1,0 +1,66 @@
+.product{
+    margin-top: 100px;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.custom-text {
+    font-weight: bold;
+    font-size: 1.9em;
+    border: 1px solid #cfcfcf;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: #999;
+    background: #fff;
+}
+.product-image{
+    max-width: 90%;
+    margin:0 auto;
+    display: block;
+}
+.product_name{
+    padding: 10px 0;
+    text-align: left;
+    width: 100%;
+
+    letter-spacing: .34px;
+}
+.product__composition{
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 14px;
+    color: #989898;
+    letter-spacing: .21px;
+}
+.product_link{
+    width: 100%;
+    height: 40px;
+}
+.product_link  span:nth-child(1)
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-family: 'Kavivanar', cursive;
+    display: inline-block;
+    text-align: center;
+    width: 35%;
+    border-right: 1px solid rgba(255,255,255,.55);
+    vertical-align: middle;
+    margin-top: -5px;
+}
+.product_link  span:nth-child(2)
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 65%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+.shopping-cart , .success , .no-item{
+    margin-top: 100px;
+}
+
